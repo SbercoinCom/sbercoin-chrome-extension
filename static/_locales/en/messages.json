@@ -1,0 +1,337 @@
+{
+  "application_title": {
+    "message": "Sbercoin.com"
+  },
+  "application_description": {
+    "message": "Sbercoin.com light wallet and transaction signing client."
+  },
+  "popup_components_accountInfo_send": {
+    "message": "Send"
+  },
+  "popup_components_accountInfo_receive": {
+    "message": "Receive"
+  },
+  "popup_components_loading_loading": {
+    "message": "Loading..."
+  },
+  "popup_components_logo_application_version": {
+    "message": "version"
+  },
+  "popup_components_navbar_settings": {
+    "message": "Settings"
+  },
+  "popup_components_navbar_logout": {
+    "message": "Logout"
+  },
+  "popup_pages_accountDetail_accountDetail": {
+    "message": "Account Detail"
+  },
+  "popup_pages_accountDetail_transactions": {
+    "message": "Transactions"
+  },
+  "popup_pages_accountDetail_tokens": {
+    "message": "Tokens"
+  },
+  "popup_pages_accountDetail_pending": {
+    "message": "pending"
+  },
+  "popup_pages_accountDetail_confirmations": {
+    "message": "$confirmations$ confirmations",
+    "placeholders": {
+      "confirmations": {
+        "content": "$1"
+      }
+    }
+  },
+  "popup_pages_accountDetail_loadMore": {
+    "message": "Load More"
+  },
+  "popup_pages_accountDetail_done": {
+    "message": "Done"
+  },
+  "popup_pages_accountDetail_edit": {
+    "message": "Edit"
+  },
+  "popup_pages_accountDetail_addToken": {
+    "message": "Add Token"
+  },
+  "popup_pages_accountLogin_accountLogin": {
+    "message": "Account Login"
+  },
+  "popup_pages_accountLogin_selectAccount": {
+    "message": "Select Account"
+  },
+  "popup_pages_accountLogin_or" : {
+    "message": "or"
+  },
+  "popup_pages_accountLogin_createNewWallet": {
+    "message": "Create New Wallet"
+  },
+  "popup_pages_addToken_addToken": {
+    "message": "Add Token"
+  },
+  "popup_pages_addToken_tokenName": {
+    "message": "Token Name"
+  },
+  "popup_pages_addToken_tokenSymbol": {
+    "message": "Token Symbol"
+  },
+  "popup_pages_addToken_decimals": {
+    "message": "Decimals"
+  },
+  "popup_pages_addToken_contractAddress": {
+    "message": "Contract Address"
+  },
+  "popup_pages_addToken_add": {
+    "message": "Add"
+  },
+  "popup_pages_createWallet_createWallet": {
+    "message": "Create Wallet"
+  },
+  "popup_pages_createWallet_importWallet": {
+    "message": "Import Wallet"
+  },
+  "popup_pages_home_home": {
+    "message": "Home"
+  },
+  "popup_pages_importWallet_infoEnterMnemonicHere": {
+    "message": "Enter your seed phrase here to import your wallet."
+  },
+  "popup_pages_importWallet_infoEnterPrivateKeyHere": {
+    "message": "Enter your private key here to import your wallet."
+  },
+  "popup_pages_importWallet_walletName": {
+    "message": "Wallet Name"
+  },
+  "popup_pages_importWallet_import": {
+    "message": "Import"
+  },
+  "popup_pages_importWallet_cancel": {
+    "message": "Cancel"
+  },
+  "popup_pages_importWallet_selectType": {
+    "message": "Select type"
+  },
+  "popup_pages_importWallet_seedPhrase": {
+    "message": "Seed Phrase"
+  },
+  "popup_pages_importWallet_privateKey": {
+    "message": "Priate Key"
+  },
+  "popup_pages_importWallet_alreadyImported": {
+    "message": "This wallet has already been imported."
+  },
+  "popup_pages_login_password": {
+    "message": "Password"
+  },
+  "popup_pages_login_confirmPassword": {
+    "message": "Confirm password"
+  },
+  "popup_pages_login_infoServeMasterPassword": {
+    "message": "This will serve as your master password and will be saved when you create or import your first wallet."
+  },
+  "popup_pages_login_login": {
+    "message": "Login"
+  },
+  "popup_pages_login_invalidPassword": {
+    "message": "Invalid password"
+  },
+  "popup_pages_login_infoInvalidPassword": {
+    "message": "You have entered an invalid password. Please try again."
+  },
+  "popup_pages_login_close": {
+    "message": "Close"
+  },
+  "popup_pages_receive_receive": {
+    "message": "Receive"
+  },
+  "popup_pages_saveMnemonic_walletCreated": {
+    "message": "Wallet Created"
+  },
+  "popup_pages_saveMnemonic_warningText": {
+    "message": "These words in this specific order are the only way to restore your wallet. Save them somewhere safe and don't share them with anyone!"
+  },
+  "popup_pages_saveMnemonic_infoCopied": {
+    "message": "I Copied It Somewhere Safe"
+  },
+  "popup_pages_saveMnemonic_saveToFile": {
+    "message": "Save To File"
+  },
+  "popup_pages_send_send": {
+    "message": "Send"
+  },
+  "popup_pages_send_from": {
+    "message": "From"
+  },
+  "popup_pages_send_to": {
+    "message": "To"
+  },
+  "popup_pages_send_token": {
+    "message": "Token"
+  },
+  "popup_pages_send_amount": {
+    "message": "Amount"
+  },
+  "popup_pages_send_max": {
+    "message": "Max"
+  },
+  "popup_pages_send_txSpeed": {
+    "message": "Transaction fee"
+  },
+  "popup_pages_send_gasLimit": {
+    "message": "Gas Limit"
+  },
+  "popup_pages_send_recommended": {
+    "message": "Recommended"
+  },
+  "popup_pages_send_gasPrice": {
+    "message": "Gas Price"
+  },
+  "popup_pages_sendConfirm_from": {
+    "message": "From"
+  },
+  "popup_pages_sendConfirm_confirm": {
+    "message": "Confirm"
+  },
+  "popup_pages_sendConfirm_sending": {
+    "message": "Sending..."
+  },
+  "popup_pages_sendConfirm_maxTxFee": {
+    "message": "Max Transaction Fee"
+  },
+  "popup_pages_settings_settings": {
+    "message": "Settings"
+  },
+  "popup_pages_settings_sessionLogoutInterval": {
+    "message": "Session Logout Interval"
+  },
+  "popup_pages_send_slow": {
+    "message": "Low (0.0000003 SBER/byte)"
+  },
+  "popup_pages_send_normal": {
+    "message": "Normal (0.0000005 SBER/byte)"
+  },
+  "popup_pages_send_fast": {
+    "message": "High (0.0000010 SBER/byte)"
+  },
+  "error_accountIsUndefined": {
+    "message": "Account should not be undefined"
+  },
+  "error_tryingToValidate": {
+    "message": "Trying to validate password without existing account"
+  },
+  "error_couldNotGetWalletInfo": {
+    "message": "Could not get wallet info."
+  },
+  "error_cannotSendWithNoInstance": {
+    "message": "Cannot send with no wallet instance."
+  },
+  "error_feeRatenotSent": {
+    "message": "feeRate not set"
+  },
+  "error_cannotCalculateMaxBalance": {
+    "message": "Cannot calculate max balance with no wallet instance."
+  },
+  "error_passwordHashShouldBeDefined": {
+    "message": "passwordHash should be defined"
+  },
+  "error_generatingApSalt": {
+    "message": "Error generating appSalt"
+  },
+  "error_appSaltShoulNotBeEmpty": {
+    "message": "appSalt should not be empty"
+  },
+  "error_scryptFailedToCalculatedDerivedKey": {
+    "message": "scrypt failed to calculate derivedKey"
+  },
+  "error_unexpErrUserInUndefined": {
+    "message": "Unexpected error, user is logged in but wallet info is not defined"
+  },
+  "error_cannotSendContractWithoutRPC": {
+    "message": "Cannot sendtocontract without RPC provider."
+  },
+  "error_requiresFirstTwoArguments": {
+    "message": "Requires first two arguments: contractAddress and data."
+  },
+  "error_cannotCallRPCProvider": {
+    "message": "Cannot call RPC without provider."
+  },
+  "error_cannotGetTokenBalance": {
+    "message": "Cannot getTokenBalance without wallet instance."
+  },
+  "error_cannotGetTransactions": {
+    "message": "Cannot get transactions without wallet instance."
+  },
+  "error_unhandledRPCMethod": {
+    "message": "Unhandled RPC method."
+  },
+  "error_cannotResolveSignTx": {
+    "message": "Cannot resolve Sign Transaction Dialog URL."
+  },
+  "error_noTxRequestFound": {
+    "message": "No transaction request found."
+  },
+  "error_noAccountFound": {
+    "message": "No account found."
+  },
+  "error_cannotSendWithoutWallet": {
+    "message": "Cannot send without wallet."
+  },
+  "error_cannotSignTxWithoutRPC": {
+    "message": "Cannot sign transaction without RPC provider."
+  },
+  "error_cannotCalculateMaxSendAmount": {
+    "message": "Cannot calculate max send amount without wallet or this.info."
+  },
+  "popup_MainContainer_unexpectedError": {
+    "message": "Unexpected Error"
+  },
+  "error_notAValidContractAddress": {
+    "message": "Not a valid contract address"
+  },
+  "error_tokenAlreadyInTokenList": {
+    "message": "Token already in token list"
+  },
+  "error_walletNameIsTaken": {
+    "message": "Wallet name is taken"
+  },
+  "error_notAValidPrivateKey": {
+    "message": "Not a valid private key"
+  },
+  "error_passwordsDoNotMatch": {
+    "message": "Passwords do not match."
+  },
+  "error_notAValidAddress": {
+    "message": "Not a valid Sbercoin.com address"
+  },
+  "error_notAValidAmount": {
+    "message": "Not a valid amount"
+  },
+  "error_notAValidGasLimit": {
+    "message": "Not a valid gas limit"
+  },
+  "error_notAValidGasPrice": {
+    "message": "Not a valid gas price"
+  },
+  "signTx_confirmTransaction": {
+    "message": "Confirm Transaction"
+  },
+  "signTx_from": {
+    "message": "From"
+  },
+  "signTx_to": {
+    "message": "To smart-contract"
+  },
+  "signTx_amount": {
+    "message": "Amount"
+  },
+  "signTx_maxTxFee": {
+    "message": "Max Transaction Fee"
+  },
+  "signTx_confirm": {
+    "message": "Confirm"
+  },
+  "signTx_cancel": {
+    "message": "Canel"
+  }
+}

@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Confirm Transaction</title>
+    <link rel="stylesheet" href="./css/sign-tx.css" />
+    <script type="text/javascript" src="./js/sign-tx.js"></script>
+
+  </head>
+  <body>
+    <!-- Logo -->
+    <div class="row">
+      <img src="images/logo.png" width="50px">
+      <span class="title">Sbercoin.com</span>
+    </div>
+    <h2>__MSG_signTx_confirmTransaction__</h2>
+    <hr class="bottom-32">
+    <!-- From -->
+    <div class="field-container bottom-32">
+      <span class="label bottom-16">__MSG_signTx_from__</span>
+      <span id="from-field" class="address"></span>
+    </div>
+      
+    <!-- To -->
+    <div class="field-container bottom-32">
+      <span class="label bottom-16">__MSG_signTx_to__</span>
+      <span id="to-field" class="address"></span>
+    </div>
+
+    <!-- Amount -->
+    <div class="field-container bottom-32" id="amount-block">
+      <div class="row">
+        <div class="center">
+          <span class="label center">__MSG_signTx_amount__</span>
+        </div>
+        <div class="amount-container">
+          <span id="amount-field" class="amount heading"></span>
+        </div>
+        <div class="center">
+          <span class="heading unit">SBER</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Token Amount (if exists) -->
+    <div id="token-amount-block" style="display:none;" class="field-container bottom-32">
+      <div class="row">
+        <div class="center">
+          <span class="label center">__MSG_signTx_amount__</span>
+        </div>
+        <div class="amount-container">
+          <span id="amount-token-field" class="amount heading"></span>
+        </div>
+        <div class="center">
+          <span id="token-symbol" class="heading unit"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gas Limit
+    <div class="field-container bottom-32" hidden>
+      <div class="row">
+        <div class="center">
+          <span class="heading center">Gas Limit</span>
+        </div>
+        <div class="amount-container">
+          <span id="gas-limit-field" class="amount"></span>
+        </div>
+        <div class="center">
+          <span class="unit center">GAS</span>
+        </div>
+      </div>
+    </div>
+     -->
+
+    <!-- Gas Price
+    <div class="field-container bottom-32" hidden>
+      <div class="row">
+        <div class="center">
+          <span class="heading center">Gas Price</span>
+        </div>
+        <div class="amount-container">
+          <span id="gas-price-field" class="amount"></span>
+        </div>
+        <div class="center">
+          <span class="unit center">SBER</span>
+        </div>
+      </div>
+    </div>  -->
+
+    <!-- Max Tx Fee -->
+    <div class="field-container bottom-32">
+      <div class="row">
+        <div class="center">
+          <span class="label center">__MSG_signTx_maxTxFee__</span>
+        </div>
+        <div class="amount-container">
+          <span id="max-tx-fee-field" class="amount"></span>
+        </div>
+        <div class="center">
+          <span class="unit center">SBER</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Raw Tx
+    <div class="transaction-container bottom-32" hidden>
+      <span id="raw-tx-field" class="raw-tx"></span>
+    </div>
+      -->
+    
+    <!-- Buttons -->
+    <div class="row">
+      <button type="button" id="button-confirm" class="button button-blue">__MSG_signTx_confirm__</button>
+    </div>
+    <div class="row">
+      <a type="button" id="button-cancel">__MSG_signTx_cancel__</a>
+    </div>
+  </body>
+</html>

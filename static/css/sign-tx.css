@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: local('Montserrat'), url(../fonts/Montserrat/Montserrat-Regular.ttf) format('ttf');
+  src: local('Roboto Mono'), url(../fonts/Roboto_Mono/RobotoMono-Regular.ttf) format('ttf');
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 16px;
+  overflow-y: scroll;
+  max-width: 380px;
+  margin: auto;
+  background-color: #eff3f6;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+
+.bottom-8 {
+  margin-bottom: 8px !important;
+}
+
+.bottom-16 {
+  margin-bottom: 16px !important;
+}
+
+.bottom-32 {
+  margin-bottom: 32px !important;
+}
+
+.left-16 {
+  margin-left: 16px !important;
+}
+
+.field-container {
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.heading {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+.address {
+  font-size: 12px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 1);
+  margin: 0;
+  float: right;
+}
+
+.amount-container {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.amount {
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.unit {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+  margin-left: 4px;
+  /* font-weight: bold; */
+}
+
+.transaction-container {
+  word-wrap: break-word;
+}
+
+.raw-tx {
+  margin-top: 3px;
+  font-size: 10px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.button {
+  height: 38px;
+  /* flex: 1; */
+  font-size: 14px;
+  /* font-weight: bold; */
+  /* font-family: 'Montserrat', sans-serif; */
+  /* border-radius: 24px; */
+  cursor: pointer;
+  margin-bottom: 3px;
+}
+
+.button:focus {
+  outline: none;
+}
+
+a {
+  color: #2184e8;
+  margin-top: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.button-blue {
+  color: #FFFFFF;
+  background: #1a9f29;
+  border: none;
+  flex: 1;
+  text-transform: uppercase;
+}
+
+.label {
+  font-size: 12px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+.title {
+  margin: auto 0;
+  font-size: larger;
+}

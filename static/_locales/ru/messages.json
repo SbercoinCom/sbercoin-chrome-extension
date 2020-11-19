@@ -1,0 +1,337 @@
+{
+  "application_title": {
+    "message": "Sbercoin.com"
+  },
+  "application_description": {
+    "message": "Легкий кошелек для платформы Sbercoin.com"
+  },
+  "popup_components_accountInfo_send": {
+    "message": "Отправить"
+  },
+  "popup_components_accountInfo_receive": {
+    "message": "Получить"
+  },
+  "popup_components_loading_loading": {
+    "message": "Загрузка..."
+  },
+  "popup_components_logo_application_version": {
+    "message": "версия"
+  },
+  "popup_components_navbar_settings": {
+    "message": "Настройки"
+  },
+  "popup_components_navbar_logout": {
+    "message": "Выйти"
+  },
+  "popup_pages_accountDetail_accountDetail": {
+    "message": "Детали аккаунта"
+  },
+  "popup_pages_accountDetail_transactions": {
+    "message": "Транзакции"
+  },
+  "popup_pages_accountDetail_tokens": {
+    "message": "Токены"
+  },
+  "popup_pages_accountDetail_pending": {
+    "message": "подтверждение"
+  },
+  "popup_pages_accountDetail_confirmations": {
+    "message": "Подтверждений: $confirmations$",
+    "placeholders": {
+      "confirmations": {
+        "content": "$1"
+      }
+    }
+  },
+  "popup_pages_accountDetail_loadMore": {
+    "message": "Еще"
+  },
+  "popup_pages_accountDetail_done": {
+    "message": "Готово"
+  },
+  "popup_pages_accountDetail_edit": {
+    "message": "Редактировать"
+  },
+  "popup_pages_accountDetail_addToken": {
+    "message": "Добавить токен"
+  },
+  "popup_pages_accountLogin_accountLogin": {
+    "message": "Войти в аккаунт"
+  },
+  "popup_pages_accountLogin_selectAccount": {
+    "message": "Выбрать аккаунт"
+  },
+  "popup_pages_accountLogin_or": {
+    "message": "или"
+  },
+  "popup_pages_accountLogin_createNewWallet": {
+    "message": "Создать новый кошелек"
+  },
+  "popup_pages_addToken_addToken": {
+    "message": "Добавить токен"
+  },
+  "popup_pages_addToken_tokenName": {
+    "message": "Имя токена"
+  },
+  "popup_pages_addToken_tokenSymbol": {
+    "message": "Тикер токена"
+  },
+  "popup_pages_addToken_decimals": {
+    "message": "Десятки"
+  },
+  "popup_pages_addToken_contractAddress": {
+    "message": "Адрес контракта"
+  },
+  "popup_pages_addToken_add": {
+    "message": "Добавить"
+  },
+  "popup_pages_createWallet_createWallet": {
+    "message": "Создать кошелек"
+  },
+  "popup_pages_createWallet_importWallet": {
+    "message": "Импортировать кошелек"
+  },
+  "popup_pages_home_home": {
+    "message": "Главная"
+  },
+  "popup_pages_importWallet_infoEnterMnemonicHere": {
+    "message": "Введите seed-фразу для импорта вашего кошелька."
+  },
+  "popup_pages_importWallet_infoEnterPrivateKeyHere": {
+    "message": "Введите приватный ключ для импорта вашего кошелька."
+  },
+  "popup_pages_importWallet_walletName": {
+    "message": "Имя кошелька"
+  },
+  "popup_pages_importWallet_import": {
+    "message": "Импорт"
+  },
+  "popup_pages_importWallet_cancel": {
+    "message": "Отмена"
+  },
+  "popup_pages_importWallet_selectType": {
+    "message": "Выберете тип"
+  },
+  "popup_pages_importWallet_seedPhrase": {
+    "message": "Seed-фраза"
+  },
+  "popup_pages_importWallet_privateKey": {
+    "message": "Приватный ключ"
+  },
+  "popup_pages_importWallet_alreadyImported": {
+    "message": "Этот кошелек уже импортирован."
+  },
+  "popup_pages_login_password": {
+    "message": "Пароль"
+  },
+  "popup_pages_login_confirmPassword": {
+    "message": "Повторите пароль"
+  },
+  "popup_pages_login_infoServeMasterPassword": {
+    "message": "Пароль будет вашим мастер-паролем и будет сохранен при создании или импорте вашего первого кошелька."
+  },
+  "popup_pages_login_login": {
+    "message": "Войти"
+  },
+  "popup_pages_login_invalidPassword": {
+    "message": "Неверный пароль"
+  },
+  "popup_pages_login_infoInvalidPassword": {
+    "message": "Вы ввели неверный пароль. Пожалуйста, повторите попытку."
+  },
+  "popup_pages_login_close": {
+    "message": "Закрыть"
+  },
+  "popup_pages_receive_receive": {
+    "message": "Получить"
+  },
+  "popup_pages_saveMnemonic_walletCreated": {
+    "message": "Кошелек создан"
+  },
+  "popup_pages_saveMnemonic_warningText": {
+    "message": "Эти слова в данном порядке - единственная возможность восстановить ваш кошелек. Сохраните их в надежное место и никому их не передавайте!"
+  },
+  "popup_pages_saveMnemonic_infoCopied": {
+    "message": "Я скопировал в надежное место"
+  },
+  "popup_pages_saveMnemonic_saveToFile": {
+    "message": "Сохранить в файл"
+  },
+  "popup_pages_send_send": {
+    "message": "Отправить"
+  },
+  "popup_pages_send_from": {
+    "message": "С аккаунта"
+  },
+  "popup_pages_send_to": {
+    "message": "на адрес"
+  },
+  "popup_pages_send_token": {
+    "message": "Токен"
+  },
+  "popup_pages_send_amount": {
+    "message": "Сумма"
+  },
+  "popup_pages_send_max": {
+    "message": "Макс"
+  },
+  "popup_pages_send_txSpeed": {
+    "message": "Размер комиссии"
+  },
+  "popup_pages_send_gasLimit": {
+    "message": "Лимит газа"
+  },
+  "popup_pages_send_recommended": {
+    "message": "Рекомендованная"
+  },
+  "popup_pages_send_gasPrice": {
+    "message": "Цена газа"
+  },
+  "popup_pages_sendConfirm_from": {
+    "message": "С адреса"
+  },
+  "popup_pages_sendConfirm_confirm": {
+    "message": "Подтвердить"
+  },
+  "popup_pages_sendConfirm_sending": {
+    "message": "Отправка..."
+  },
+  "popup_pages_sendConfirm_maxTxFee": {
+    "message": "Максимальная комиссия за транзакцию"
+  },
+  "popup_pages_settings_settings": {
+    "message": "Настройки"
+  },
+  "popup_pages_settings_sessionLogoutInterval": {
+    "message": "Интервал окончания сессии"
+  },
+  "popup_pages_send_slow": {
+    "message": "Низкая (0.0000003 SBER/byte)"
+  },
+  "popup_pages_send_normal": {
+    "message": "Средняя (0.0000005 SBER/byte)"
+  },
+  "popup_pages_send_fast": {
+    "message": "Высокая (0.0000010 SBER/byte)"
+  },
+  "error_accountIsUndefined": {
+    "message": "Аккаунт должен быть определен"
+  },
+  "error_tryingToValidate": {
+    "message": "Попытка ввести пароль несуществующего аккаунта"
+  },
+  "error_couldNotGetWalletInfo": {
+    "message": "Ошибка получения информации по кошельку."
+  },
+  "error_cannotSendWithNoInstance": {
+    "message": "Невозможно отправить без экземпляра кошелька."
+  },
+  "error_feeRatenotSent": {
+    "message": "Комиссия не установлена"
+  },
+  "error_cannotCalculateMaxBalance": {
+    "message": "Невозможно определить максимальный баланс без экземпляра кошелька."
+  },
+  "error_passwordHashShouldBeDefined": {
+    "message": "Хеш пароля не определен"
+  },
+  "error_generatingApSalt": {
+    "message": "Ошибка генерации appSalt"
+  },
+  "error_appSaltShoulNotBeEmpty": {
+    "message": "appSalt не может быть пустым полем"
+  },
+  "error_scryptFailedToCalculatedDerivedKey": {
+    "message": "Ошибка вычисления derivedKey"
+  },
+  "error_unexpErrUserInUndefined": {
+    "message": "Непредвиденная ошибка, пользователь залогинен, но информация по кошельку не определена"
+  },
+  "error_cannotSendContractWithoutRPC": {
+    "message": "Невозможно отправить в контракт без RPC-провайдера."
+  },
+  "error_requiresFirstTwoArguments": {
+    "message": "Первые два аргумента обязательны: адрес контракта и данные."
+  },
+  "error_cannotCallRPCProvider": {
+    "message": "Невозможно вызвать контракт без RPC-провайдера."
+  },
+  "error_cannotGetTokenBalance": {
+    "message": "Невозможно получить баланс токенов без экземпляра кошелька."
+  },
+  "error_cannotGetTransactions": {
+    "message": "Невозможно получить список транзакций без экземпляра кошелька."
+  },
+  "error_unhandledRPCMethod": {
+    "message": "Необработанный RPC-метод."
+  },
+  "error_cannotResolveSignTx": {
+    "message": "Невозможно разрешить Sign Transaction Dialog URL."
+  },
+  "error_noTxRequestFound": {
+    "message": "Транзакция по запросу не найдена."
+  },
+  "error_noAccountFound": {
+    "message": "Аккаунт не найден."
+  },
+  "error_cannotSendWithoutWallet": {
+    "message": "Невозможно отправить без кошелька."
+  },
+  "error_cannotSignTxWithoutRPC": {
+    "message": "Невозможно подписать транзакцию без RPC-провайдера."
+  },
+  "error_cannotCalculateMaxSendAmount": {
+    "message": "Невозможно вычислить максимальную сумму отправки без кошелька или this.info."
+  },
+  "popup_MainContainer_unexpectedError": {
+    "message": "Непредвиденная ошибка"
+  },
+  "error_notAValidContractAddress": {
+    "message": "Некорректный адрес контракта"
+  },
+  "error_tokenAlreadyInTokenList": {
+    "message": "Токен уже добавлен в ваш список"
+  },
+  "error_walletNameIsTaken": {
+    "message": "Имя кошелька уже существует"
+  },
+  "error_notAValidPrivateKey": {
+    "message": "Некорректный приватный ключ"
+  },
+  "error_passwordsDoNotMatch": {
+    "message": "Пароли не совпадают."
+  },
+  "error_notAValidAddress": {
+    "message": "Некорректный Sbercoin.com адрес"
+  },
+  "error_notAValidAmount": {
+    "message": "Некорректная сумма"
+  },
+  "error_notAValidGasLimit": {
+    "message": "Некорректный лимит газа"
+  },
+  "error_notAValidGasPrice": {
+    "message": "Некорректная цена газа"
+  },
+  "signTx_confirmTransaction": {
+    "message": "Подтвердите транзакцию"
+  },
+  "signTx_from": {
+    "message": "Отправитель"
+  },
+  "signTx_to": {
+    "message": "Cмарт-контракт"
+  },
+  "signTx_amount": {
+    "message": "Сумма"
+  },
+  "signTx_maxTxFee": {
+    "message": "Максимальная комиссия"
+  },
+  "signTx_confirm": {
+    "message": "Отправить"
+  },
+  "signTx_cancel": {
+    "message": "Выход"
+  }
+}
