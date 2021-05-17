@@ -30,7 +30,7 @@ class Receive extends Component<WithStyles & IProps, {}> {
           <Typography className={classes.accountName}>{loggedInAccountName}</Typography>
           <Typography className={classes.accountAddress}>{info.addrStr}</Typography>
           <div className={classes.amountContainer}>
-            <Typography className={classes.tokenAmount}>{info.balance}</Typography>
+            <Typography className={classes.tokenAmount}>{info.coinBalance}</Typography>
             <Typography className={classes.token}>SBER</Typography>
           </div>
           { /*<Typography className={classes.currencyValue}>{`${sberBalanceUSD} ${networkBalAnnotation}`}</Typography> */ }

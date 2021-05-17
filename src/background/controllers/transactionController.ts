@@ -1,5 +1,5 @@
 import { Insight } from 'sberjs-wallet';
-import { map, find, partition, sumBy, includes, round } from 'lodash';
+import { map, /*find, partition, sumBy, includes,*/ round } from 'lodash';
 import moment from 'moment';
 
 import QryptoController from '.';
@@ -94,30 +94,29 @@ export default class TransactionController extends IController {
     }
 
     const wallet = this.main.account.loggedInAccount.wallet.qjsWallet;
-    const { pagesTotal, txs } =  await wallet.getTransactions(pageNum);
-    this.pagesTotal = pagesTotal;
+    const { totalCount, transactions } =  await wallet.getTransactions(pageNum);
+    this.pagesTotal = totalCount;
 
-    return map(txs, (tx: Insight.IRawTransactionInfo) => {
+    return map(transactions, (tx: Insight.IRawTransactionInfo) => {
       const {
-        txid,
+        id,
         confirmations,
-        time,
-        vin,
-        vout,
+        timestamp,
+        amount
       } = tx;
 
-      const sender = find(vin, {addr: wallet.address});
-      const outs = map(vout, ({ value, scriptPubKey: { addresses } }) => {
+      /*const sender = find(inputs, {addr: wallet.address});
+      const outs = map(outputs, ({ value, scriptPubKey: { addresses } }) => {
         return { value, addresses };
       });
       const [mine, other] = partition(outs, ({ addresses }) => includes(addresses, wallet.address));
       const amount = sumBy(sender ? other : mine, ({ value }) => parseFloat(value));
-
+      */
       return new Transaction({
-        id: txid,
-        timestamp: moment(new Date(time * 1000)).format('MM-DD-YYYY, HH:mm'),
+        id: id,
+        timestamp: moment(new Date(timestamp * 1000)).format('MM-DD-YYYY, HH:mm'),
         confirmations,
-        amount: round(amount, 7),
+        amount: round(amount/1e7, 7),
       });
     });
   }

@@ -59,7 +59,6 @@ export default class SessionController extends IController {
   */
   private onPopupClosed = () => {
     this.clearAllIntervalsExceptAccount();
-
     // Logout from bgp after interval
     this.sessionTimeout = window.setTimeout(() => {
       this.clearSession();
@@ -85,6 +84,7 @@ export default class SessionController extends IController {
           sendResponse(this.sessionLogoutInterval);
           break;
         case MESSAGE_TYPE.SAVE_SESSION_LOGOUT_INTERVAL:
+          console.log(request);
           this.sessionLogoutInterval = request.value;
           break;
         default:

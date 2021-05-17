@@ -89,7 +89,8 @@ export const isValidGasLimit = (gasLimit: number) => {
 };
 
 export const isValidGasPrice = (gasPrice: number) => {
-  return isFinite(gasPrice) && gasPrice > 0;
+  //return isFinite(gasPrice) && gasPrice > 0;
+  return gasPrice >= 18 && gasPrice <= 100;
 };
 
 /*
