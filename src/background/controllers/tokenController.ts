@@ -174,7 +174,8 @@ export default class TokenController extends IController {
         throw Error(error);
       }
       result = qweb3.decoder.decodeCall(result, qrc20TokenABI, methodName) as Insight.IContractCall;
-      const decimals = result.executionResult.formattedOutput[0];
+      const decimals = result.executionResult.formattedOutput[0].toString();
+      console.log(decimals.toString());
 
       if (name && symbol && decimals) {
         const token = new QRCToken(name, symbol, decimals, contractAddress);

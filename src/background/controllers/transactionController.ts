@@ -97,7 +97,7 @@ export default class TransactionController extends IController {
     const { totalCount, transactions } =  await wallet.getTransactions(pageNum);
     this.pagesTotal = totalCount;
 
-    return map(transactions, (tx: Insight.IRawTransactionInfo) => {
+    return map(transactions, (tx: Insight.IRawTransactionBasicInfo) => {
       const {
         id,
         confirmations,

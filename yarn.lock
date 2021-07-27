@@ -5330,9 +5330,9 @@ sax@^1.2.4, sax@~1.2.1:
     safe-buffer "^5.1.1"
     sbercoin-opcodes "https://github.com/SbercoinCom/sbercoin-opcodes-js"
 
-"sberjs-wallet@https://github.com/SbercoinCom/sbercoinjs-wallet.git#dev":
+"sberjs-wallet@https://github.com/SbercoinCom/sbercoinjs-wallet.git#master":
   version "0.2.2"
-  resolved "https://github.com/SbercoinCom/sbercoinjs-wallet.git#2b44bcef4fd9ef3878a81d4f0216404ad6808aad"
+  resolved "https://github.com/SbercoinCom/sbercoinjs-wallet.git#e06fdf25eb442b77e351cc488ce7b60e04a69ad8"
   dependencies:
     "@types/bip38" "^2.0.0"
     "@types/secp256k1" "^3.5.0"
