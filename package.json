@@ -53,7 +53,7 @@
     "@types/qrcode.react": "^0.8.0",
     "@types/scryptsy": "^2.0.0",
     "@types/secp256k1": "^3.5.0",
-    "Sweb3": "https://github.com/SbercoinCom/Sweb3.js.git#master",
+    "Sweb3": "https://github.com/SbercoinCom/Sweb3.js/#master",
     "axios": "^0.18.0",
     "bignumber.js": "^7.2.1",
     "chrome-call": "^3.0.0",
