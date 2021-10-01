@@ -1,8 +1,9 @@
-import { isFinite } from 'lodash';
 import { validatePrivateKey } from 'sberjs-wallet';
 
 import { TARGET_NAME } from '../constants';
 import { IExtensionMessageData } from '../types';
+
+const _ = require('lodash');
 
 /*
 * Validates a MessageEvent.
@@ -72,7 +73,7 @@ export const isValidContractAddressLength = (address?: string) => {
 * @return {boolean} Returns if it is a valid send amount.
 */
 export const isValidAmount = (amount: number, maxAllowed: number) => {
-  if (!isFinite(amount) || !isFinite(maxAllowed)) {
+  if (!_.isFinite(amount) || !_.isFinite(maxAllowed)) {
     return false;
   }
   if (amount <= 0) {
@@ -85,12 +86,13 @@ export const isValidAmount = (amount: number, maxAllowed: number) => {
 };
 
 export const isValidGasLimit = (gasLimit: number) => {
-  return isFinite(gasLimit) && gasLimit > 0;
+  //return _.isFinite(gasLimit) && gasLimit > 0;
+  return gasLimit >= 3000 && gasLimit <= 8000000;
 };
 
 export const isValidGasPrice = (gasPrice: number) => {
-  //return isFinite(gasPrice) && gasPrice > 0;
-  return gasPrice >= 18 && gasPrice <= 100;
+  //return _.isFinite(gasPrice) && gasPrice > 0;
+  return gasPrice >= 1 && gasPrice <= 100;
 };
 
 /*
